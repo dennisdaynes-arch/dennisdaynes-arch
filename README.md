@@ -10,7 +10,9 @@ I work at the intersection of business and applied technology: economics and fin
 
 An iOS strength-training app where an LLM coach talks to the athlete and a deterministic engine owns every number it is allowed to say.
 
-Built solo over three months — 94k lines of TypeScript, a 37-table Postgres schema with row-level security on every table, and a validation layer that drops model output which cannot be traced back to computed evidence. 165 test modules, 3,020 assertions, all passing.
+Built solo over three months — 580 commits, 94k lines of TypeScript, a 37-table Postgres schema with row-level security on every table, and a validation layer that drops model output which cannot be traced back to computed evidence. 165 test modules, 3,020 assertions, all passing.
+
+Not a prototype: 39 screens covering logging, AI session generation, coach chat, programs, recovery, body measures, nutrition, a social feed, direct messages, leaderboards and a subscription paywall — running against live Supabase infrastructure with all 42 migrations applied in production.
 
 The interesting part is not that it calls a language model. It is the architecture that stops the model from being believed: numbers are grounded per-domain against engine-authored evidence, diagnostic claims require a permission granted by a deterministic ledger, and a reply that fails either check is dropped rather than repaired — the app falls back to the engine's own wording.
 
@@ -30,4 +32,4 @@ I build with AI-assisted engineering — Claude Code and Codex as implementation
 
 ---
 
-📍 Oslo, Norway · dennisdaynes@gmail.com
+📍 Bergen, Norway · dennisdaynes@gmail.com
