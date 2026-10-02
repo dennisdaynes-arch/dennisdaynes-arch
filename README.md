@@ -2,7 +2,7 @@
 
 **Business Administration, BI Norwegian Business School — graduating 2027**
 
-I work at the intersection of business and applied technology: economics and finance on one side, building and shipping software products on the other. Previously at **Aker Solutions**, on the Valhall PWP project.
+I work at the intersection of business and applied technology: economics and finance on one side, building and shipping software products on the other. 
 
 ---
 
